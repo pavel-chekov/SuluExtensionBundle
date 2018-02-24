@@ -1,7 +1,7 @@
 <?php
 
 /*
- * This file is part of ChekovEventBundle package.
+ * This file is part of ChekovExtensionBundle package.
  *
  * (c) Chekov Bundles <https://github.com/pavel-chekov>
  *
@@ -32,6 +32,11 @@ trait TranslationTrait
      * @var array
      */
     private $content;
+
+    public function getId()
+    {
+        return $this->id;
+    }
 
     public function setTitle($title)
     {
@@ -67,10 +72,5 @@ trait TranslationTrait
     public function getContent()
     {
         return $this->content;
-    }
-
-    public function getId()
-    {
-        return $this->id;
     }
 }

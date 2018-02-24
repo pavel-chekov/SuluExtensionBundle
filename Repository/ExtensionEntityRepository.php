@@ -9,10 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Chekov\Bundle\ExtensionBundle;
+namespace Chekov\Bundle\ExtensionBundle\Repository;
 
-use Symfony\Component\HttpKernel\Bundle\Bundle;
-
-class ChekovExtensionBundle extends Bundle
+/**
+ * Class ExtensionEntityRepository
+ *
+ * @package Chekov\Bundle\ExtensionBundle\Repository
+ */
+class ExtensionRepository
 {
 }

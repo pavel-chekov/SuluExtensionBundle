@@ -1,6 +1,6 @@
 
 /*
- * This file is part of ChekovEventBundle package.
+ * This file is part of ChekovExtensionBundle package.
  *
  * (c) Chekov Bundles <https://github.com/pavel-chekov>
  *
