@@ -11,20 +11,15 @@
 
 namespace Chekov\Bundle\ExtensionBundle\Serializer;
 
-interface SerializerInterface
+class Serializer implements SerializerInterface
 {
-    /**
-     * @param object $entity
-     * @param array $data
-     *
-     * @return object
-     */
-    public function deserialize($entity, $data);
+    public function deserialize($entity, $data)
+    {
+        // TODO: Implement deserialize() method.
+    }
 
-    /**
-     * @param object $entity
-     *
-     * @return array
-     */
-    public function serialize($entity);
+    public function serialize($entity)
+    {
+        // TODO: Implement serialize() method.
+    }
 }

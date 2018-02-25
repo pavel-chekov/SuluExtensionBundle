@@ -11,7 +11,7 @@
 
 namespace Chekov\Bundle\ExtensionBundle\Controller;
 
-use Chekov\Bundle\ExtensionBundle\Data\SerializerInterface;
+use Chekov\Bundle\ExtensionBundle\Serializer\SerializerInterface;
 use Chekov\Bundle\ExtensionBundle\Exception\NotFoundHttpException;
 use Chekov\Bundle\ExtensionBundle\Repository\ExtensionRepositoryInterface;
 use FOS\RestBundle\View\View;
@@ -63,6 +63,12 @@ class EntityController
         }
 
         return $this->createResponse($entity, 200);
+    }
+
+    public function cgetFieldsAction(Request $request)
+    {
+
+        throw new HttpException(501, 'Will be implemented soon');
     }
 
     public function cgetAction(Request $request)
