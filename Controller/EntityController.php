@@ -67,7 +67,6 @@ class EntityController
 
     public function cgetFieldsAction(Request $request)
     {
-
         throw new HttpException(501, 'Will be implemented soon');
     }
 

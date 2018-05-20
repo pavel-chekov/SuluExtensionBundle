@@ -11,11 +11,6 @@
 
 namespace Chekov\Bundle\ExtensionBundle\Repository;
 
-/**
- * Class ExtensionEntityRepository
- *
- * @package Chekov\Bundle\ExtensionBundle\Repository
- */
 class ExtensionRepository
 {
 }

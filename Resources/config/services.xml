@@ -6,7 +6,7 @@
     <services>
         <!-- Admin -->
         <service id="chekov_extension.admin"
-                 class="Chekov\Bundle\ExtensionBundle\Admin\EventAdmin">
+                 class="Chekov\Bundle\ExtensionBundle\Admin\ExtensionAdmin">
             <tag name="sulu.admin"/>
             <tag name="sulu.context" context="admin"/>
             <argument type="service" id="sulu_security.security_checker"/>
