@@ -28,11 +28,7 @@ class ExtensionAdmin extends Admin
         SecurityCheckerInterface $securityChecker,
         $title
     ) {
-        // set root navigation
-        $rootNavigationItem = new NavigationItem($title);
-
-        // set navigation
-        $this->setNavigation(new Navigation($rootNavigationItem));
+        $this->setNavigation(new Navigation(new NavigationItem($title)));
     }
 
     public function getCommands()

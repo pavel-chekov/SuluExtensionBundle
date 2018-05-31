@@ -10,8 +10,8 @@
 
 require.config({
     paths: {
-        chekovevent: '../../chekovextension/js',
-        chekoveventcss: '../../chekovextension/css'
+        chekovextension: '../../chekovextension/js',
+        chekovextensioncss: '../../chekovextension/css'
     }
 });
 
@@ -23,7 +23,7 @@ define(['css!chekovextensioncss/main'], function() {
             'use strict';
             var sandbox = app.sandbox;
 
-            app.components.addSource('chekovform', '/bundles/chekovextension/js/components');
+            app.components.addSource('chekovextension', '/bundles/chekovextension/js/components');
         }
     }
 });
